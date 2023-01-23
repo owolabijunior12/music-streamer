@@ -1,21 +1,19 @@
 body {
-    background-color:#000000;
+    background-color:#262121;
     transition: background-color .5s;
     letter-spacing: 2px;
-}
-section{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* height: 100%; */
+    overflow: hidden;
 }
 .player{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background: #c21313;
+    background: #262121;
     color: white;
+    height: 90vh;
+    padding: 10px;
     border-radius: 40px;
     padding: 20px;
 }

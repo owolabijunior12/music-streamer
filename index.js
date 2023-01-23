@@ -21,7 +21,7 @@ let trackList = [
             path: "./music/DJ-Selex-Best-Of-Zinoleesky-Mixtape-(TrendyBeatz.com).mp3"
         },
         {
-            name: "Shipping Lanes",
+            name: "iboytech",
             artist: "Dj SBM",
             image: "Image URL",
             path: "./music/Rema - Bounce (Prod By Don Jazzy) Via_ 9jaflaver.com.mp3",
@@ -49,6 +49,12 @@ let trackList = [
             artist: "Zinoleeky ft Iboytech",
             image: "./image/IMG_20220223_061903_796.jpg",
             path: "./music/Zinoleesky-–-Joromi.mp3",
+        },
+        {
+            name: "Mapariwo",
+            artist: "Zinoleeky ft Iboytech",
+            image: "my img",
+            path: "./music/Zinoleesky-Mapariwo.mp3",
         },
         {
             name: "Mapariwo",
@@ -106,13 +112,13 @@ function playpauseTrack() {
     function playTrack() {
     currTrack.play();
     isPlaying = true;
-    playpauseBtn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+    playpauseBtn.innerHTML = '<i class="fa fa-pause-circle fa-4x"></i>';
 }
     
 function pauseTrack() {    
     currTrack.pause();
     isPlaying = false;
-    playpauseBtn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
+    playpauseBtn.innerHTML = '<i class="fa fa-play-circle fa-4x"></i>';
 }
     
 function nextTrack() {    
