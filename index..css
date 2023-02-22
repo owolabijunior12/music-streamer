@@ -1,5 +1,5 @@
 body {
-    background-color:#2bff00;
+    background-color:#147002;
     transition: background-color .5s;
     letter-spacing: 2px;
     /* height: 100%; */
@@ -10,7 +10,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background: #09c62f;
+    background: #147002;
     color: white;
     height: 90vh;
     padding: 10px;
